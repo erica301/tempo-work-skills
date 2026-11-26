@@ -12,16 +12,19 @@ Anything someone else made can be a security risk, including this. Start a new c
 Before I install it, audit the Claude plugin at https://github.com/erica301/tempo-work-skills. Read every file. Tell me who made it, what it can reach, what it can do with that, whether it sends anything anywhere or takes instructions from anywhere else, and whether it asks for passwords or keys. Then give me one verdict: safe to install, install with limits, or don't install.
 ```
 
-Only go on if the verdict is safe to install.
+Go on if the verdict is safe to install, or install with limits. If it gives limits, follow them. It may say you already have some of these skills: that's fine, you can remove your old copies afterwards.
 
 ## Install
 
 You need a paid Claude plan (Pro, Max, Team or Enterprise).
 
 1. In Claude, open **Customize**, then **Plugins**.
-2. Click **Add**, then **Add marketplace**, and paste `erica301/tempo-work-skills`.
-3. Install the **tempo-work** plugin.
-4. Turn on **Sync automatically**, so you get each skill's improvements when I make them.
+2. Click **Add**, then **Add marketplace**, paste `erica301/tempo-work-skills`, and confirm.
+3. Open **Tempo work** (from tempo-work-skills) and click **Add**. This second Add is the one that puts the skills in your Claude.
+4. **Sync automatically** is your choice. On, you get each skill's improvements as I make them. Off, you stay on the version you checked, and can run the check again before updating.
+5. Start a new chat and ask: "Which tempo-work skills can you see?" It should list all 16.
+
+Some skills run on their own when a task matches, like checking a sum with a script. To make sure they do, also paste the instruction lines from the course portal's skill library into Settings, Account, Instructions for Claude. You only do this once.
 
 ## What's inside
 
