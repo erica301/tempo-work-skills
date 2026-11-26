@@ -1,6 +1,6 @@
 ---
 name: numbers-by-script
-description: Use whenever a task involves totals, sums, averages, counts, scores, rankings, budgets or dates. Computes them with code from the source data, never in prose, and shows the working.
+description: Use for any total, sum, average, count, score, ranking, percentage, budget or date, even two or three figures. Always run code for the answer, never work it out in your head, and show the working.
 ---
 
 # Numbers by script
