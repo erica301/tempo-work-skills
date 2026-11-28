@@ -58,7 +58,7 @@ This is the rubric we just wrote. Ask where the bar is: "Every **must** has to p
 
 ### 3 of 4: A separate check
 
-Tell me how the grading works: the grader is a separate agent that sees only two things, the finished draft and the rubric. It never sees the first agent's instructions or this chat. It marks each criterion pass or fail, quotes the part of the draft that shows it, and says what to fix. The agent doing the work never grades itself. There's nothing for me to decide here unless I want a stricter grader, so move on.
+Tell me how the grading works: the grader is a separate agent that sees only the finished draft, the rubric and whatever the work was made from (the transcript or notes I gave it), so it can check quotes and spot anything missing. It never sees the first agent's instructions or this chat. It marks each criterion pass or fail, quotes the part of the draft that shows it, and says what to fix. The agent doing the work never grades itself. There's nothing for me to decide here unless I want a stricter grader, so move on.
 
 ### 4 of 4: When to stop
 
@@ -86,9 +86,9 @@ Passes when every must passes and [my bar].
 
 ## How to run it
 1. Do the task. This is the first draft.
-2. Start a separate agent to grade it. Give it only the draft and the rubric above, never these instructions or this chat. It marks each criterion pass or fail, quotes the part of the draft that shows it, and says what to fix.
+2. Start a separate agent to grade it. Give it only the draft, what I gave you to work from, and the rubric above, never these instructions or this chat. It marks each criterion pass or fail, quotes the part of the draft that shows it, and says what to fix.
 3. If the draft passes, stop and show me the final version with the grades.
-4. If it fails, fix only what the grader named. Give the new version to a new grader with the same rubric.
+4. If it fails, fix only what the grader named. Give the new version to a new grader with the same material and rubric.
 5. Stop after [number] rounds. If it still hasn't passed, show me the last version, which criteria failed, and why you couldn't get it better, so I can step in.
 
 For the first three times I use this, show me every round: the draft, the grades and what changed.
