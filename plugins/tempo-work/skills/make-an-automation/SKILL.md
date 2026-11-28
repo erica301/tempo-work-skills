@@ -125,7 +125,7 @@ Write everything into one document called **"[task] judgment"** (or add to their
 
 Write their skill: a SKILL.md with a name and a description at the top, then their outline written as instructions.
 
-**Show it once:** first a short outline (what it does, in what order, what it never does) for them to approve, then the finished file. Don't paste the whole skill into the chat again after that. Then give a **"Your turn:"** with exactly how to save it: press **Save skill** on the skill you just showed (a Save card in Cowork), then open Customize, then Skills, and check the description line reads the way you agreed. The skill goes in Skills, not in the Project: only the judgment document and supporting files go in the Project. **Never hand them a zip or any file to download and upload.** They save it from the chat, so they can read every line first.
+**Show it once:** first a short outline (what it does, in what order, what it never does) for them to approve, then the finished file. Don't paste the whole skill into the chat again after that. Then give a **"Your turn:"** with exactly how to save it: press **Save skill** on the skill you just showed, then open Customize, then Skills, and check the description line reads the way you agreed. The skill goes in Skills, not in the Project: only the judgment document and supporting files go in the Project. **Never hand them a zip or any file to download and upload.** They save it from the chat, so they can read every line first.
 
 - **Script steps:** write them, run them on their real data and show the result so they can check it against what they know. Every number in the output comes from a script. Figures quoted from documents are copied exactly.
 - **Judgment-heavy tasks, build these habits into the skill itself:**
@@ -195,6 +195,7 @@ Then tell them what happens next: run it themselves by typing its name, check th
 ## Changes
 
 - 2026-10-26: Library version for TEMPO (Self-Paced, Collective Coaching, TEMPO for Teams), made from the client-tested builder (Erica). Five steps; a fast path when the work is already written down; questions asked together; one drawing; two chats for judgment-heavy builds (build, then test in a fresh chat, with word-for-word instructions); the skill always uploaded as a skill, with only the judgment document and supporting files in a Project; every skill it builds carries light-running habits.
-- 2026-11-01: Skills are saved from the chat (Save skill, or the Save card in Cowork), never handed over as a zip to upload, and the learner checks the saved description line (Erica: people are wary of installing zips and should feel in control).
+- 2026-11-01: Skills are saved from the chat (Save skill), never handed over as a zip to upload, and the learner checks the saved description line (Erica: people are wary of installing zips and should feel in control).
 - 2026-11-01: Description now names schedules and writing a skill. In the real claude.ai trigger test, "Could Claude do that on a schedule?" missed it, and "Write me a skill that summarises meetings" loaded it once and missed it once.
 - 2026-11-04: Description reworded without a mid-line colon (claude.ai warns a colon there can stop the skill loading) and narrowed to automating and scheduling. Writing, saving or testing a single skill now belongs to make-a-skill, which has its own instruction line (trigger report, "Nine more skills").
+- 2026-11-28: Saving wording matches claude.ai in the browser, where a skill is saved with Save skill.
